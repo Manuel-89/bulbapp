@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bulb assignment</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <div id="bulbapp">
+
+        <div class="bulb_on" v-if="turnMeOn">
+            <img src="/images/bulbon.jfif">
+        </div>
+    
+        <div class ="bulb_off" v-else="turnMeOff">
+         <img src="/images/bulboff.jfif">
+        </div>
+    
+    
+        <button @click="turnMeOn = !turnMeOn">Click Me</button>
+        
+       
+    </div>
+    <script src="vue.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
