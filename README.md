@@ -1,2 +1,2 @@
 # bulbapp
-This is bulbapp built with Html, Css &amp; Vuejs
+This is a bulbapp built with Html, Css &amp; Vuejs
